@@ -16,4 +16,7 @@ function isPalindrome(s) {
   return true;
 }
 
+// Time complexity: O(N)
+// Space complexity: O(1) Left and Right Pointers take up constant space
+
 module.exports = isPalindrome;
