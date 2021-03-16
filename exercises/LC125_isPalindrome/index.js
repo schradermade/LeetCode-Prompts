@@ -18,5 +18,7 @@ function isPalindrome(s) {
 
 // Time complexity: O(N)
 // Space complexity: O(1) Left and Right Pointers take up constant space
+  // Unless .toLowerCase() is considered to add to space complexity, since
+  // it makes a temporary copy of string in memory - in which case O(N) space compl.
 
 module.exports = isPalindrome;
