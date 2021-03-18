@@ -1,0 +1,5 @@
+Time complexity: O(n) - Because we use for loops and iterate over input string "s"
+and input string "t". 'n' is the total length of 's' and 't' combined, or total
+number of characters for the input strings.
+
+Space complexity: O(1) - Our hash table will have 26 key-value pairs at most.

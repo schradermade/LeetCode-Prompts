@@ -11,3 +11,7 @@ test("isAnagram('rat', 'car') returns false", () => {
 test("isAnagram('', '') returns true", () => {
   expect(isAnagram("", "")).toEqual(true);
 });
+
+test("isAnagram('car', 'cars') returns false", () => {
+  expect(isAnagram('car', 'cars')).toEqual(false);
+});
