@@ -1,0 +1,2 @@
+// run jest test for each promp // 
+jest LC3_lengthOfLongestSubstring --watch
