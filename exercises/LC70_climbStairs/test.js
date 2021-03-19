@@ -15,3 +15,10 @@ test("Returns 3 ways to climb 3 stairs", () => {
 test("Returns 5 ways to climb 4 stairs", () => {
   expect(climbStairs(4)).toEqual(5);
 });
+
+test("Returns 21 ways to climb 7 stairs", () => {
+  expect(climbStairs(7)).toEqual(21);
+})
+ test("Returns 20365011074 ways to climb 50 stairs", () => {
+   expect(climbStairs(50)).toEqual(20365011074);
+ });
