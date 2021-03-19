@@ -9,7 +9,7 @@ const climbStairs = n => {
     ways.push(ways[i - 1] + ways[i -2])
   }
 
-  return ways[n]
+  return ways.pop();
 }
 
 module.exports = climbStairs;
