@@ -11,3 +11,7 @@ test("rob([2,1,1,2]) returns 4", () => {
 test("rob([]) returns 0", () => {
   expect(rob([])).toEqual(0);
 });
+
+test("rob([3,4,2,3,7,55,7,4,54,7,34]) returns", () => {
+  expect(rob([3,4,2,3,7,55,7,4,54,7,34])).toEqual(150);
+});
